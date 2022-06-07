@@ -101,5 +101,7 @@ function multiply(a, b) {
 
 # KNOWLEDGE OF ENGLISH
 
-- ### My English level is B2.
+- ### My English level is **B2**.
 - ### The confirmation of my level of English proficiency is the successful completion of the External Independent Assessment at 175/200.
+
+- ### I participated in scientific conferences in English at my University. My scientific experience is described above.
