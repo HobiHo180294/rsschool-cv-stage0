@@ -96,3 +96,10 @@ function multiply(a, b) {
 | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | 21.04.2021 – 22.04.2021                                                                 | 15.12.2021                                                                                                        |
 | _Article: “The use of Python for the development of artificial neural net-works”_       | _Article: “Gamification of Higher Education in the European Union”_                                               |
+
+<br />
+
+# KNOWLEDGE OF ENGLISH
+
+- ### My English level is B2.
+- ### The confirmation of my level of English proficiency is the successful completion of the External Independent Assessment at 175/200.
