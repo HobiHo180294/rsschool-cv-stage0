@@ -51,3 +51,15 @@ img[alt$="<"] {
 2. ### **Knowledge of BEM methodology**.
 3. ### **Version control systems and development tools:** GIT, Visual Studio Code, HTML, CSS, SASS/SCSS, Prepros, Webpack, Babel, Node.js, Github.
 4. ### **Database knowledge:** phpMyAdmin, MySQL.
+
+<br />
+
+# CODE EXAMPLES
+
+### The function for multiplying numbers is described below:
+
+```javascript
+function multiply(a, b) {
+  return a * b;
+}
+```
