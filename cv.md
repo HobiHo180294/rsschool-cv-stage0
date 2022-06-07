@@ -2,8 +2,8 @@
 img[alt$="<"] {
   float: left;
   margin-right: 10px;
-  width: 210px;
-  height: 251px
+  width: 240px;
+  height: 280px
 }
 
 </style>
@@ -22,6 +22,8 @@ img[alt$="<"] {
 
 ### **E-mail:** hitechnic.uu68@gmail.com
 
+### **Discord:** Yehor Potebenko(HobiHo180294)
+
 ### **Github:** https://github.com/HobiHo180294
 
 <br />
@@ -38,3 +40,14 @@ img[alt$="<"] {
 <br />
 
 ### In order to achieve my goals, I look for any opportunities for self-development and never miss them. Therefore, I entered RS School because I saw such a chance in evolving my knowledge and practical sklls of working on real projects to start my professional career as a junior frontend developer in the international IT company EPAM in future. Moreover, I am interested in gaining skills in software development and web applications not only in my motherland but also abroad. That is why I have recently applied for admission to Reutlingen University in Germany.
+
+<br />
+
+# HARD SKILLS
+
+### I know and use such development tools in my work
+
+1. ### **Programming languages:** JavaScript, PhP.
+2. ### **Knowledge of BEM methodology**.
+3. ### **Version control systems and development tools:** GIT, Visual Studio Code, HTML, CSS, SASS/SCSS, Prepros, Webpack, Babel, Node.js, Github.
+4. ### **Database knowledge:** phpMyAdmin, MySQL.
