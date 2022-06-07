@@ -63,3 +63,9 @@ function multiply(a, b) {
   return a * b;
 }
 ```
+
+<br />
+
+# WORK EXPERIENCE
+
+### Unfortunately, I have no commercial experience in programming. However, I used to work as a freelancer, where I was engaged with copywriting. I had been working as a copywriter from 01.07.2020 to 30.09.2020 and my work was based on writing texts for online stores in Russian, Ukrainian and English. Nevertheless, nowadays I devote most of my life to programming, because I want to start a career in this area.
