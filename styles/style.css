@@ -156,7 +156,7 @@ body {
 /* Page styles start */
 .page {
   flex: 1 1 auto;
-  padding: 160px 0 120px 0;
+  padding: 180px 0 120px 0;
 }
 
 .page__body {
@@ -384,5 +384,20 @@ body {
 
 /* Footer styles start */
 .footer {
+  padding: 20px 0;
+  background-color: rgba(187, 123, 59, 0.599);
+}
+
+.footer__list {
+  text-align: center;
+}
+
+.footer__item {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.footer__item:not(:last-child) {
+  margin-bottom: 10px;
 }
 /* Footer styles end */
