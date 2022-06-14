@@ -150,6 +150,13 @@ body {
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.105em;
+  transition: all 0.5s ease 0s;
+}
+
+.menu__link:hover,
+.menu__link:active {
+  color: #e5e5e5;
+  opacity: 0.8;
 }
 /* Header styles end */
 
@@ -278,6 +285,7 @@ body {
   font-size: 18px;
   line-height: 40px;
   letter-spacing: 0.05em;
+  transition: all 0.5s ease 0s;
 }
 
 .info-contact__item::before {
@@ -288,6 +296,11 @@ body {
   width: 35px;
   height: 35px;
   border: 3px solid #b8b8b8;
+}
+
+.info-contact__item:hover,
+.info-contact__item:active {
+  opacity: 0.8;
 }
 
 .info-contact__phone {
@@ -399,5 +412,15 @@ body {
 
 .footer__item:not(:last-child) {
   margin-bottom: 10px;
+}
+
+.github-link {
+  transition: all 0.5s ease 0s;
+}
+
+.github-link:hover,
+.github-link:active {
+  color: #e5e5e5;
+  opacity: 0.8;
 }
 /* Footer styles end */
