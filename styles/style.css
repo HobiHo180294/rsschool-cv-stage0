@@ -124,6 +124,7 @@ body {
   z-index: 999;
   width: 100%;
   padding: 20px 0;
+  background-color: #bb7a3b;
 }
 
 .header__body {
