@@ -42,15 +42,15 @@
             <nav class="header__menu menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a class="menu__link" href="#!">Contact</a>
+                  <a class="menu__link" href="#contact">Contact</a>
                 </li>
 
                 <li class="menu__item">
-                  <a class="menu__link" href="#!">About me</a>
+                  <a class="menu__link" href="#about">About me</a>
                 </li>
 
                 <li class="menu__item">
-                  <a class="menu__link" href="#!">Hard skills</a>
+                  <a class="menu__link" href="#skills">Skills</a>
                 </li>
 
                 <li class="menu__item">
@@ -66,15 +66,15 @@
                 </li>
 
                 <li class="menu__item">
-                  <a class="menu__link" href="#!">Work</a>
+                  <a class="menu__link" href="#work">Work</a>
                 </li>
 
                 <li class="menu__item">
-                  <a class="menu__link" href="#!">Education</a>
+                  <a class="menu__link" href="#education">Education</a>
                 </li>
 
                 <li class="menu__item">
-                  <a class="menu__link" href="#!">English</a>
+                  <a class="menu__link" href="#english">English</a>
                 </li>
               </ul>
             </nav>
@@ -90,7 +90,7 @@
             <!-- Left block start -->
             <div class="page__left left-block">
               <!-- Block about myself start -->
-              <div class="left-block__about about-me">
+              <div class="left-block__about about-me" id="about">
                 <div class="about-me__container _page-part-container">
                   <div class="about-me__body">
                     <div class="about-me__picture picture">
@@ -146,7 +146,7 @@
               <!-- Block about myself end -->
 
               <!-- Work experience section start -->
-              <section class="left-block__work work">
+              <section class="left-block__work work" id="work">
                 <div class="work__container _page-part-container">
                   <div class="work__body">
                     <div class="work__title _title">
@@ -173,7 +173,7 @@
               <!-- Work experience section end -->
 
               <!-- English section start -->
-              <section class="left-block__english english">
+              <section class="left-block__english english" id="english">
                 <div class="english__container _page-part-container">
                   <div class="english__body">
                     <div class="english__title _title">
@@ -213,7 +213,7 @@
             <!-- Right block start -->
             <div class="page__right right-block">
               <!-- Contact section start -->
-              <section class="right-block__contact contact">
+              <section class="right-block__contact contact" id="contact">
                 <div class="contact__container _page-part-container">
                   <div class="contact__body">
                     <div class="contact__title _title">
@@ -222,44 +222,52 @@
                     </div>
 
                     <address class="contact__info info-contact">
-                      <a
-                        class="info-contact__item info-contact__phone"
-                        href="tel:+380990297837"
-                      >
-                        +38 (099) 029-78-37
-                      </a>
-
-                      <a
-                        class="info-contact__item info-contact__mail"
-                        href="mailto:hitechnic.uu68@gmail.com"
-                        target="_blank"
-                      >
-                        hitechnic.uu68@gmail.com
-                      </a>
-
-                      <a
-                        class="info-contact__item info-contact__discord"
-                        href="https://discord.com/invite/gFnRh8Sudg"
-                        target="_blank"
-                      >
-                        Yehor Potebenko(HobiHo180294)
-                      </a>
-
-                      <a
-                        class="info-contact__item info-contact__github"
-                        href="https://github.com/HobiHo180294"
-                        target="_blank"
-                      >
-                        https://github.com/HobiHo180294
-                      </a>
-
-                      <a
-                        class="info-contact__item info-contact__location"
-                        href="https://www.google.com/maps/place/%D0%94%D0%BD%D0%B5%D0%BF%D1%80,+%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+49000/@48.4619585,34.7201766,10z/data=!3m1!4b1!4m5!3m4!1s0x40dbe303fd08468f:0xa1cf3d5f2c11aba!8m2!3d48.464717!4d35.046183"
-                        target="_blank"
-                      >
-                        Dnipro, Ukraine(UTC+3)
-                      </a>
+                      <ul class="info-contact__list">
+                        <li class="info-contact__element">
+                          <a
+                            class="info-contact__item info-contact__phone"
+                            href="tel:+380990297837"
+                          >
+                            +38 (099) 029-78-37
+                          </a>
+                        </li>
+                        <li class="info-contact__element">
+                          <a
+                            class="info-contact__item info-contact__mail"
+                            href="mailto:hitechnic.uu68@gmail.com"
+                            target="_blank"
+                          >
+                            hitechnic.uu68@gmail.com
+                          </a>
+                        </li>
+                        <li class="info-contact__element">
+                          <a
+                            class="info-contact__item info-contact__discord"
+                            href="https://discord.com/invite/gFnRh8Sudg"
+                            target="_blank"
+                          >
+                            Yehor Potebenko(HobiHo180294)
+                          </a>
+                        </li>
+                        <li class="info-contact__element">
+                          <a
+                            class="info-contact__item info-contact__github"
+                            href="https://github.com/HobiHo180294"
+                            target="_blank"
+                          >
+                            https://github.com/HobiHo180294
+                          </a>
+                        </li>
+                        <li class="info-contact__element">
+                          <a
+                            class="info-contact__item info-contact__location"
+                            href="https://www.google.com/maps/place/%D0%94%D0%BD%D0%B5%D0%BF%D1%80,+%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+49000/@48.4619585,34.7201766,10z/data=!3m1!4b1!4m5!3m4!1s0x40dbe303fd08468f:0xa1cf3d5f2c11aba!8m2!3d48.464717!4d35.046183"
+                            target="_blank"
+                          >
+                            Dnipro, Ukraine(UTC+3)
+                          </a>
+                        </li>
+                      </ul>
                     </address>
                   </div>
                 </div>
@@ -267,7 +275,7 @@
               <!-- Contact section end -->
 
               <!-- Education section start -->
-              <section class="right-block__education education">
+              <section class="right-block__education education" id="education">
                 <div class="education__container _page-part-container">
                   <div class="education__body">
                     <div class="education__title _title">
@@ -393,7 +401,7 @@
               <!-- Scholarly work section end -->
 
               <!-- Hard skills section start -->
-              <section class="right-block__skills skills">
+              <section class="right-block__skills skills" id="skills">
                 <div class="skills__container _page-part-container">
                   <div class="skills__body">
                     <div class="skills__title _title">
@@ -518,5 +526,9 @@
       </footer>
       <!-- Footer end -->
     </div>
+
+    <!-- Scripts -->
+    <script src="./js/main.js"></script>
+    <!-- Scripts -->
   </body>
 </html>
