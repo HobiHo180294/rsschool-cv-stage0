@@ -19,6 +19,12 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.left-container {
+  box-sizing: content-box;
+  max-width: 100%;
+  margin: 0 auto;
+}
 /* Presets and common styles */
 
 /* Header styles start */
@@ -31,7 +37,7 @@ body {
   padding: 20px 0;
 }
 
-.header__row {
+.header__body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,6 +66,100 @@ body {
 /* Page styles start */
 .page {
   flex: 1 1 auto;
+  padding: 160px 0 0 0;
+}
+
+.page__body {
+  display: flex;
+}
+
+.page__left {
+  padding-right: 57px;
+}
+
+.page__right {
+  padding-left: 57px;
+}
+
+/* Left block styles start */
+
+.left-block {
+  flex: 0 1 56.23%;
+}
+
+/* Section about myself styles start */
+.about-me__picture {
+  margin-bottom: 60px;
+}
+
+.picture {
+  position: relative;
+}
+
+.about-me__picture::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 60px;
+  height: 100%;
+  background-color: #bb7a3b;
+}
+
+.picture__myself {
+  padding-left: 100px;
+}
+
+.name {
+  text-transform: uppercase;
+}
+
+.name__first {
+  font-size: 70px;
+  line-height: 100px;
+  font-weight: 700;
+  color: #bb7a3b;
+  letter-spacing: 0.165em;
+}
+
+.name__last {
+  font-size: 60px;
+  line-height: 70px;
+  color: #242732;
+  letter-spacing: 0.03em;
+}
+
+.about-me__post {
+  margin-bottom: 40px;
+  font-size: 25px;
+  line-height: 30px;
+  color: #4f4f4f;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.about-me__information {
+  margin-bottom: 50px;
+}
+
+.information {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #4f4f4f;
+  letter-spacing: 0.03em;
+  text-align: justify;
+}
+
+.information__paragraph:first-child {
+  margin-bottom: 20px;
+}
+/* Section about myself styles end */
+
+/* Left block styles end */
+
+.right-block {
+  flex: 0 1 43.77%;
 }
 /* Page styles end */
 
