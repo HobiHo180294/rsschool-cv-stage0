@@ -47,6 +47,55 @@ body {
   height: 8px;
   background: linear-gradient(to right, #bb7a3b, rgba(187, 122, 59, 0.3));
 }
+
+._edu-group {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+._edu-group:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+._edu-specialty {
+  color: #4f4f4f;
+  text-transform: uppercase;
+}
+
+._edu-time {
+  position: relative;
+  padding-left: 28px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
+}
+
+._edu-time::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 20px;
+  height: 3px;
+  background-color: #ebd7c4;
+  transform: translateY(-50%);
+}
+
+/* ._subtitle {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 900;
+  color: #242732;
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+}
+
+._subtitle-line {
+  height: 4px;
+  width: 80%;
+  background: linear-gradient(to right, #bb7a3b, rgba(187, 122, 59, 0.3));
+} */
 /* Presets and common styles */
 
 /* Header styles start */
@@ -172,7 +221,7 @@ body {
 /* Block about myself styles end */
 
 /* Work experience section styles start */
-.work__title_line {
+.work__title {
   margin-bottom: 20px;
 }
 /* Work experience section styles end */
@@ -189,16 +238,16 @@ body {
   margin-bottom: 60px;
 }
 
-.contact__title-line {
+.contact__title {
   margin-bottom: 30px;
 }
 
 .info-contact__item {
-  display: block;
   position: relative;
+  display: block;
+  padding-left: 55px;
   font-size: 18px;
   line-height: 40px;
-  padding-left: 55px;
   letter-spacing: 0.05em;
 }
 
@@ -215,19 +264,29 @@ body {
 .info-contact__phone {
   background: url(../img/icons/phone-ico.svg) 9px center no-repeat;
 }
+
 .info-contact__mail {
   background: url(../img/icons/mail-ico.svg) 9px center no-repeat;
 }
+
 .info-contact__discord {
   background: url(../img/icons/discord-ico.png) 9px center no-repeat;
 }
+
 .info-contact__github {
   background: url(../img/icons/github-ico.png) 9px center no-repeat;
 }
+
 .info-contact__location {
   background: url(../img/icons/location-ico.svg) 9px center no-repeat;
 }
 /* Contact styles end */
+
+/* Education section start */
+.education__title {
+  margin-bottom: 40px;
+}
+/* Education section end */
 
 /* Right block styles end */
 
