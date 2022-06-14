@@ -1,14 +1,59 @@
 /* Presets and common styles */
+body {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  color: #333333;
+  background-color: #e5e5e5;
+}
+
 .wrapper {
-  min-height: 100%;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+._container {
+  box-sizing: content-box;
+  max-width: 1070px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 /* Presets and common styles */
 
 /* Header styles start */
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.header__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu__link {
+  font-size: 17px;
+  line-height: 38px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.105em;
 }
 /* Header styles end */
 

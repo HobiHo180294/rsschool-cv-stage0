@@ -8,7 +8,7 @@ img[alt$="<"] {
 
 </style>
 
-![image alt <](./img/myPhoto.jpg)
+![image alt <](./img/content/myPhoto.jpg)
 
 ## <center>PERSONAL INFORMATION</center>
 
