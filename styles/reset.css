@@ -1,4 +1,5 @@
 /* NULLSTYLE */
+
 html,
 body,
 div,
@@ -477,34 +478,14 @@ input:focus {
 }
 
 button {
+  padding: 0;
   font-family: inherit;
   color: inherit;
-  padding: 0;
+}
+
+hr {
+  margin: 0;
+  border: none;
 }
 
 /* NULLSTYLE */
-
-/* Presets and common styles */
-.wrapper {
-  min-height: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
-/* Presets and common styles */
-
-/* Header styles start */
-.header {
-}
-/* Header styles end */
-
-/* Page styles start */
-.page {
-  flex: 1 1 auto;
-}
-/* Page styles end */
-
-/* Footer styles start */
-.footer {
-}
-/* Footer styles end */

@@ -14,27 +14,551 @@
     <meta name="author" content="">
 
     <!-- Title -->
-    <title>CV</title>
+    <title>CV | Yehor Potebenko</title>
 
     <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon.png"
+    >
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    >
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon/favicon-16x16.png"
+    >
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link
+      rel="mask-icon"
+      href="img/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    >
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta
+      name="msapplication-config"
+      content="img/favicon/browserconfig.xml"
+    >
+    <meta name="theme-color" content="#764646">
 
     <!-- Launching CSS -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="styles/reset.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;900&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    >
+    <!-- Fonts -->
+
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   <!-- Body-->
   <body>
     <div class="wrapper">
       <!-- Header start -->
-      <header class="header"></header>
+      <header class="header">
+        <div class="header__container _container">
+          <div class="header__body">
+            <nav class="header__menu menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="#contact">Contact</a>
+                </li>
+
+                <li class="menu__item">
+                  <a class="menu__link" href="#about">About me</a>
+                </li>
+
+                <li class="menu__item">
+                  <a class="menu__link" href="#skills">Skills</a>
+                </li>
+
+                <li class="menu__item">
+                  <a href="index.html" class="menu__logo-link">
+                    <img
+                      class="menu__logo-pic"
+                      src="img/logos/CV-logo.png"
+                      alt="CV-logo"
+                      width="94"
+                      height="85"
+                    >
+                  </a>
+                </li>
+
+                <li class="menu__item">
+                  <a class="menu__link" href="#work">Work</a>
+                </li>
+
+                <li class="menu__item">
+                  <a class="menu__link" href="#education">Education</a>
+                </li>
+
+                <li class="menu__item">
+                  <a class="menu__link" href="#english">English</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
       <!-- Header end -->
 
       <!-- Page start -->
-      <main class="page"></main>
+      <main class="page">
+        <div class="page__container _container">
+          <div class="page__body">
+            <!-- Left block start -->
+            <div class="page__left left-block">
+              <!-- Block about myself start -->
+              <div class="left-block__about about-me" id="about">
+                <div class="about-me__container _page-part-container">
+                  <div class="about-me__body">
+                    <div class="about-me__picture picture">
+                      <img
+                        class="picture__myself"
+                        src="img/content/wide-my-photo.jpg"
+                        alt="My Photo"
+                        width="535"
+                        height="290"
+                      >
+                    </div>
+
+                    <h1 class="about-me__name name">
+                      <mark class="name__first">Yehor</mark>
+                      <br>
+                      <mark class="name__last">Potebenko</mark>
+                    </h1>
+
+                    <h2 class="about-me__post">Frontend Web Developer</h2>
+
+                    <div class="about-me__information information">
+                      <p class="information__paragraph _content-paragraph">
+                        My name is Yehor Potebenko and I am a student of Dnipro
+                        University of Technology, Faculty of Information
+                        Technology, Specialty of Computer Science. To begin
+                        with, I have been studying computer science for about
+                        two years, and during this time I managed to get
+                        acquainted with many programming languages and areas of
+                        Information Technology. I had been looking for myself in
+                        the field of IT for a very long time and only last year
+                        I finally decided to progress in the field of front-end
+                        development. Now this is an integral part of my life and
+                        my main goal is to become highly qualified specialist
+                        and work in an international company.
+                      </p>
+                      <p class="information__paragraph _content-paragraph">
+                        In order to achieve my goals, I look for any
+                        opportunities for self-development and never miss them.
+                        Therefore, I entered RS School because I saw such a
+                        chance in evolving my knowledge and practical sklls of
+                        working on real projects to start my professional career
+                        as a junior frontend developer in the international IT
+                        company EPAM in future. Moreover, I am interested in
+                        gaining skills in software development and web
+                        applications not only in my motherland but also abroad.
+                        That is why I have recently applied for admission to
+                        Reutlingen University in Germany.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Block about myself end -->
+
+              <!-- Work experience section start -->
+              <section class="left-block__work work" id="work">
+                <div class="work__container _page-part-container">
+                  <div class="work__body">
+                    <div class="work__title _title">
+                      <h2 class="work__title_name _title-name">
+                        Work experience
+                      </h2>
+                      <hr class="work__title_line _title-line">
+                    </div>
+
+                    <p class="work__paragraph _content-paragraph">
+                      Unfortunately, I have no commercial experience in
+                      programming. However, I am a versatile person and used to
+                      work as a freelancer where I was engaged with copywriting.
+                      I had been working as a copywriter from 01.07.2020 to
+                      30.09.2020 and my work was based on writing texts for
+                      online stores in Russian, Ukrainian and English.
+                      Nevertheless, nowadays I devote most of my life to
+                      programming, because I want to start a career in this
+                      area.
+                    </p>
+                  </div>
+                </div>
+              </section>
+              <!-- Work experience section end -->
+
+              <!-- English section start -->
+              <section class="left-block__english english" id="english">
+                <div class="english__container _page-part-container">
+                  <div class="english__body">
+                    <div class="english__title _title">
+                      <h2 class="english__title_name _title-name">
+                        KNOWLEDGE OF ENGLISH
+                      </h2>
+                      <hr class="english__title_line _title-line">
+                    </div>
+
+                    <ul class="english__list list-english _skills-list">
+                      <li class="english-list__item _skills-list-item">
+                        My English level is
+                        <mark class="_skills-item-uppercase">B2</mark>
+                        .
+                      </li>
+                      <li class="english-list__item _skills-list-item">
+                        The confirmation of my level of English proficiency is
+                        the successful completion of the
+                        <mark class="_skills-item-uppercase">
+                          External Independent Evaluation
+                        </mark>
+                        at 175/200.
+                      </li>
+                      <li class="english-list__item _skills-list-item">
+                        I participated in scientific conferences in English at
+                        my University. My scientific experience is described
+                        above.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+              <!-- English section end -->
+            </div>
+            <!-- Left block end -->
+
+            <!-- Right block start -->
+            <div class="page__right right-block">
+              <!-- Contact section start -->
+              <section class="right-block__contact contact" id="contact">
+                <div class="contact__container _page-part-container">
+                  <div class="contact__body">
+                    <div class="contact__title _title">
+                      <h2 class="contact__title_name _title-name">Contact</h2>
+                      <hr class="contact__title_line _title-line">
+                    </div>
+
+                    <address class="contact__info info-contact">
+                      <ul class="info-contact__list">
+                        <li class="info-contact__element">
+                          <a
+                            class="info-contact__item info-contact__phone"
+                            href="tel:+380990297837"
+                          >
+                            +38 (099) 029-78-37
+                          </a>
+                        </li>
+                        <li class="info-contact__element">
+                          <a
+                            class="info-contact__item info-contact__mail"
+                            href="mailto:hitechnic.uu68@gmail.com"
+                            target="_blank"
+                          >
+                            hitechnic.uu68@gmail.com
+                          </a>
+                        </li>
+                        <li class="info-contact__element">
+                          <a
+                            class="info-contact__item info-contact__discord"
+                            href="https://discord.com/invite/gFnRh8Sudg"
+                            target="_blank"
+                          >
+                            Yehor Potebenko(HobiHo180294)
+                          </a>
+                        </li>
+                        <li class="info-contact__element">
+                          <a
+                            class="info-contact__item info-contact__github"
+                            href="https://github.com/HobiHo180294"
+                            target="_blank"
+                          >
+                            https://github.com/HobiHo180294
+                          </a>
+                        </li>
+                        <li class="info-contact__element">
+                          <a
+                            class="info-contact__item info-contact__location"
+                            href="https://www.google.com/maps/place/%D0%94%D0%BD%D0%B5%D0%BF%D1%80,+%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+49000/@48.4619585,34.7201766,10z/data=!3m1!4b1!4m5!3m4!1s0x40dbe303fd08468f:0xa1cf3d5f2c11aba!8m2!3d48.464717!4d35.046183"
+                            target="_blank"
+                          >
+                            Dnipro, Ukraine(UTC+3)
+                          </a>
+                        </li>
+                      </ul>
+                    </address>
+                  </div>
+                </div>
+              </section>
+              <!-- Contact section end -->
+
+              <!-- Education section start -->
+              <section class="right-block__education education" id="education">
+                <div class="education__container _page-part-container">
+                  <div class="education__body">
+                    <div class="education__title _title">
+                      <h2 class="education__title_name _title-name">
+                        Education
+                      </h2>
+                      <hr class="education__title_line _title-line">
+                    </div>
+
+                    <div class="education__info info-edu">
+                      <div class="info-edu__group _edu-group">
+                        <h3 class="info-edu__specialty _edu-specialty">
+                          High-school education
+                        </h3>
+                        <div class="info-edu__time _edu-time">2009 – 2020</div>
+                        <div class="info-edu__institution _edu-institution">
+                          Municipal educational institution "Educational complex
+                          №36" of the Dnipro City Council
+                        </div>
+                      </div>
+
+                      <div class="info-edu__group _edu-group">
+                        <h3 class="info-edu__specialty _edu-specialty">
+                          Computer Science (Bachelor Degree)
+                        </h3>
+                        <div class="info-edu__time _edu-time">2020 – 2024</div>
+                        <div class="info-edu__institution _edu-institution">
+                          Dnipro University of Technology, Faculty of
+                          Information Technology, Specialty Computer Science
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- Education section end -->
+
+              <!-- Training section start -->
+              <section class="right-block__training training">
+                <div class="training__container _page-part-container">
+                  <div class="training__body">
+                    <div class="training__subtitle _subtitle">
+                      <h3 class="training__subtitle_name _subtitle-name">
+                        Training
+                      </h3>
+                      <hr class="training__subtitle_line _subtitle-line">
+                    </div>
+
+                    <div class="training__info info-train">
+                      <div class="info-train__group _edu-group">
+                        <h3 class="info-train__specialty _edu-specialty">
+                          Marathon of IT technologies for students of Ukraine
+                        </h3>
+                        <div class="info-train__time _edu-time">
+                          19.04.2022 – 18.05.2022
+                        </div>
+                        <div class="info-train__institution _edu-institution">
+                          EPAM
+                        </div>
+                      </div>
+
+                      <div class="info-train__group _edu-group">
+                        <h3 class="info-train__specialty _edu-specialty">
+                          Course: “JS/FRONT-END. STAGE 0”
+                        </h3>
+                        <div class="info-train__time _edu-time">
+                          01.06.2022 – present time
+                        </div>
+                        <div class="info-train__institution _edu-institution">
+                          The Rolling Scopes School
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- Training section end -->
+
+              <!-- Scholarly work section start -->
+              <section class="right-block__science science">
+                <div class="science__container _page-part-container">
+                  <div class="science__body">
+                    <div class="science__subtitle _subtitle">
+                      <h3 class="science__subtitle_name _subtitle-name">
+                        Science
+                      </h3>
+                      <hr class="science__subtitle_line _subtitle-line">
+                    </div>
+
+                    <div class="science__info info-science">
+                      <div class="info-science__group _edu-group">
+                        <h3 class="info-science__specialty _edu-specialty">
+                          Article: “The use of Python for the development of
+                          artificial neural net-works”
+                        </h3>
+                        <div class="info-science__time _edu-time">
+                          21.04.2021 – 22.04.2021
+                        </div>
+                        <div class="info-science__institution _edu-institution">
+                          The 16th International Forum for Students and Young
+                          Researchers “Widening Our Horizons”
+                        </div>
+                      </div>
+
+                      <div class="info-science__group _edu-group">
+                        <h3 class="info-science__specialty _edu-specialty">
+                          Article: “Gamification of Higher Education in the
+                          European Union”
+                        </h3>
+                        <div class="info-science__time _edu-time">
+                          15.12.2021
+                        </div>
+                        <div class="info-science__institution _edu-institution">
+                          The 16th International Conference “Problems of Using
+                          Information Technologies in Education, Science and
+                          Industry”
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- Scholarly work section end -->
+
+              <!-- Hard skills section start -->
+              <section class="right-block__skills skills" id="skills">
+                <div class="skills__container _page-part-container">
+                  <div class="skills__body">
+                    <div class="skills__title _title">
+                      <h2 class="skills__title_name _title-name">
+                        Hard skills
+                      </h2>
+                      <hr class="skills__title_line _title-line">
+                    </div>
+
+                    <ul class="skills__list list-skills _skills-list">
+                      <li class="list-skills__item _skills-list-item">
+                        Programming languages:
+                        <mark
+                          class="list-skills__item_uppercase _skills-item-uppercase"
+                        >
+                          JavaScript, PhP
+                        </mark>
+                        .
+                      </li>
+                      <li class="list-skills__item _skills-list-item">
+                        Knowledge of
+                        <mark
+                          class="list-skills__item_uppercase _skills-item-uppercase"
+                        >
+                          BEM methodology
+                        </mark>
+                        .
+                      </li>
+                      <li class="list-skills__item _skills-list-item">
+                        Version control systems and development tools:
+                        <mark
+                          class="list-skills__item_uppercase _skills-item-uppercase"
+                        >
+                          GIT, Visual Studio Code, HTML5, MARKDOWN, CSS3,
+                          SASS/SCSS, Prepros, Webpack, Babel, Node.js, Github
+                        </mark>
+                      </li>
+                      <li class="list-skills__item _skills-list-item">
+                        Database knowledge:
+                        <mark
+                          class="list-skills__item_uppercase _skills-item-uppercase"
+                        >
+                          phpMyAdmin, MySQL
+                        </mark>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+              <!-- Hard skills section end -->
+
+              <!-- Code examples section start -->
+              <section class="right-block__code code">
+                <div class="code__container _page-part-container">
+                  <div class="code__body">
+                    <div class="code__title _title">
+                      <h2 class="code__title_name _title-name">
+                        Code examples
+                      </h2>
+                      <hr class="code__title_line _title-line">
+                    </div>
+
+                    <div class="code__group">
+                      <p class="code__definition">
+                        The function for multiplying numbers is described below:
+                      </p>
+                      <code class="code__example">
+                        <mark class="code__brown">function</mark>
+                        multiply(a, b) {
+                        <br>
+                        &emsp;
+                        <mark class="code__brown">return</mark>
+                        a * b;
+                        <br>
+                        }
+                      </code>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- Code examples section end -->
+            </div>
+            <!-- Right block end -->
+          </div>
+        </div>
+      </main>
       <!-- Page end -->
 
       <!-- Footer start -->
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__container _container">
+          <div class="footer__body">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a
+                  class="footer__link"
+                  href="https://rs.school/js-stage0/"
+                  target="_blank"
+                >
+                  <img
+                    class="footer__logo"
+                    src="img/logos/rsschool-logo.svg"
+                    alt="RSSchool"
+                    width="122"
+                    height="78"
+                  >
+                </a>
+              </li>
+              <li class="footer__item">
+                <a
+                  class="footer__link github-link"
+                  href="https://github.com/HobiHo180294"
+                  target="_blank"
+                >
+                  My Github
+                </a>
+              </li>
+              <li class="footer__item">© 2022. All Rights Reserved</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
       <!-- Footer end -->
     </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <!-- Scripts -->
   </body>
 </html>
