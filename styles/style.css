@@ -55,7 +55,7 @@ body {
 }
 
 ._edu-group:not(:last-child) {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 ._edu-specialty {
@@ -82,7 +82,7 @@ body {
   transform: translateY(-50%);
 }
 
-/* ._subtitle {
+._subtitle {
   font-size: 30px;
   line-height: 40px;
   font-weight: 900;
@@ -95,7 +95,7 @@ body {
   height: 4px;
   width: 80%;
   background: linear-gradient(to right, #bb7a3b, rgba(187, 122, 59, 0.3));
-} */
+}
 /* Presets and common styles */
 
 /* Header styles start */
@@ -282,11 +282,31 @@ body {
 }
 /* Contact styles end */
 
-/* Education section start */
+/* Education section styles start */
+.right-block__education {
+  margin-bottom: 30px;
+}
+
 .education__title {
   margin-bottom: 40px;
 }
-/* Education section end */
+/* Education section styles end */
+
+/* Training section styles start */
+.right-block__training {
+  margin-bottom: 30px;
+}
+
+.training__subtitle {
+  margin-bottom: 30px;
+}
+/* Training section styles end */
+
+/* Scholarly work section styles start */
+.science__subtitle {
+  margin-bottom: 30px;
+}
+/* Scholarly work section styles end */
 
 /* Right block styles end */
 
