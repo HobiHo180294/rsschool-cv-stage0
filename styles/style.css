@@ -158,6 +158,10 @@ body {
   flex: 0 1 56.23%;
 }
 
+.left-block__about {
+  margin-bottom: 50px;
+}
+
 /* Block about myself styles start */
 .about-me__picture {
   margin-bottom: 60px;
@@ -211,10 +215,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.about-me__information {
-  margin-bottom: 50px;
-}
-
 .information__paragraph:first-child {
   margin-bottom: 20px;
 }
@@ -262,23 +262,23 @@ body {
 }
 
 .info-contact__phone {
-  background: url(../img/icons/phone-ico.svg) 9px center no-repeat;
+  background: url("../img/icons/phone-ico.svg") 9px center no-repeat;
 }
 
 .info-contact__mail {
-  background: url(../img/icons/mail-ico.svg) 9px center no-repeat;
+  background: url("../img/icons/mail-ico.svg") 9px center no-repeat;
 }
 
 .info-contact__discord {
-  background: url(../img/icons/discord-ico.png) 9px center no-repeat;
+  background: url("../img/icons/discord-ico.png") 9px center no-repeat;
 }
 
 .info-contact__github {
-  background: url(../img/icons/github-ico.png) 9px center no-repeat;
+  background: url("../img/icons/github-ico.png") 9px center no-repeat;
 }
 
 .info-contact__location {
-  background: url(../img/icons/location-ico.svg) 9px center no-repeat;
+  background: url("../img/icons/location-ico.svg") 9px center no-repeat;
 }
 /* Contact styles end */
 
@@ -303,10 +303,42 @@ body {
 /* Training section styles end */
 
 /* Scholarly work section styles start */
+.right-block__science {
+  margin-bottom: 50px;
+}
+
 .science__subtitle {
   margin-bottom: 30px;
 }
 /* Scholarly work section styles end */
+
+/* Hard skills section styles start */
+.right-block__skills {
+  margin-bottom: 50px;
+}
+
+.skills__title {
+  margin-bottom: 40px;
+}
+
+.list-skills__item {
+  padding-left: 25px;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 0.01em;
+  background: url("../img/icons/circle-ico.png") 0px 7px no-repeat;
+}
+
+.list-skills__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.list-skills__item_uppercase {
+  font-style: italic;
+  text-transform: uppercase;
+}
+/* Hard skills section styles end */
 
 /* Right block styles end */
 
