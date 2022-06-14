@@ -340,6 +340,33 @@ body {
 }
 /* Hard skills section styles end */
 
+/* Code examples section styles start */
+.code__title {
+  margin-bottom: 40px;
+}
+
+.code__group {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.code__definition {
+  margin-bottom: 10px;
+}
+
+.code__example {
+  display: block;
+  padding: 20px;
+  font-style: italic;
+  background-color: rgba(187, 122, 59, 0.3);
+  border-radius: 10px;
+}
+
+.code__brown {
+  color: #bb7a3b;
+}
+/* Code examples section styles end */
+
 /* Right block styles end */
 
 /* Page styles end */
