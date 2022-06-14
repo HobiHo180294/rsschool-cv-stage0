@@ -96,6 +96,24 @@ body {
   width: 80%;
   background: linear-gradient(to right, #bb7a3b, rgba(187, 122, 59, 0.3));
 }
+
+._skills-list-item {
+  padding-left: 25px;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 0.01em;
+  background: url("../img/icons/circle-ico.png") 0px 7px no-repeat;
+}
+
+._skills-list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+._skills-item-uppercase {
+  font-style: italic;
+  text-transform: uppercase;
+}
 /* Presets and common styles */
 
 /* Header styles start */
@@ -220,7 +238,17 @@ body {
 }
 /* Block about myself styles end */
 
+/* Section about english styles start */
+.english__title {
+  margin-bottom: 40px;
+}
+/* Section about english styles end */
+
 /* Work experience section styles start */
+.left-block__work {
+  margin-bottom: 50px;
+}
+
 .work__title {
   margin-bottom: 20px;
 }
@@ -319,24 +347,6 @@ body {
 
 .skills__title {
   margin-bottom: 40px;
-}
-
-.list-skills__item {
-  padding-left: 25px;
-  font-size: 16px;
-  line-height: 30px;
-  text-align: justify;
-  letter-spacing: 0.01em;
-  background: url("../img/icons/circle-ico.png") 0px 7px no-repeat;
-}
-
-.list-skills__item:not(:last-child) {
-  margin-bottom: 10px;
-}
-
-.list-skills__item_uppercase {
-  font-style: italic;
-  text-transform: uppercase;
 }
 /* Hard skills section styles end */
 
