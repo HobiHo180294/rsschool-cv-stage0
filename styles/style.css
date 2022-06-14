@@ -1,0 +1,426 @@
+/* Presets and common styles */
+body {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  color: #333333;
+  background-color: #e5e5e5;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+._container {
+  box-sizing: content-box;
+  max-width: 1070px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+._page-part-container {
+  box-sizing: content-box;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+._content-paragraph {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #4f4f4f;
+  letter-spacing: 0.03em;
+  text-align: justify;
+}
+
+._title {
+  font-size: 35px;
+  line-height: 55px;
+  font-weight: 900;
+  color: #242732;
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+}
+
+._title-line {
+  height: 8px;
+  background: linear-gradient(to right, #bb7a3b, rgba(187, 122, 59, 0.3));
+}
+
+._edu-group {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+._edu-group:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+._edu-specialty {
+  color: #4f4f4f;
+  text-transform: uppercase;
+}
+
+._edu-time {
+  position: relative;
+  padding-left: 28px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
+}
+
+._edu-time::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 20px;
+  height: 3px;
+  background-color: #ebd7c4;
+  transform: translateY(-50%);
+}
+
+._subtitle {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 900;
+  color: #242732;
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+}
+
+._subtitle-line {
+  height: 4px;
+  width: 80%;
+  background: linear-gradient(to right, #bb7a3b, rgba(187, 122, 59, 0.3));
+}
+
+._skills-list-item {
+  padding-left: 25px;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 0.01em;
+  background: url("../img/icons/circle-ico.png") 0px 7px no-repeat;
+}
+
+._skills-list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+._skills-item-uppercase {
+  font-style: italic;
+  text-transform: uppercase;
+}
+/* Presets and common styles */
+
+/* Header styles start */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #bb7a3b;
+}
+
+.header__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu__link {
+  font-size: 17px;
+  line-height: 38px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.105em;
+  transition: all 0.5s ease 0s;
+}
+
+.menu__link:hover,
+.menu__link:active {
+  color: #e5e5e5;
+  opacity: 0.8;
+}
+/* Header styles end */
+
+/* Page styles start */
+.page {
+  flex: 1 1 auto;
+  padding: 180px 0 120px 0;
+}
+
+.page__body {
+  display: flex;
+}
+
+.page__left {
+  padding-right: 57px;
+}
+
+.page__right {
+  padding-left: 57px;
+}
+
+/* Left block styles start */
+
+.left-block {
+  flex: 0 1 56.23%;
+}
+
+.left-block__about {
+  margin-bottom: 50px;
+}
+
+/* Block about myself styles start */
+.about-me__picture {
+  margin-bottom: 60px;
+}
+
+.picture {
+  position: relative;
+}
+
+.about-me__picture::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 60px;
+  height: 100%;
+  background-color: #bb7a3b;
+}
+
+.picture__myself {
+  padding-left: 100px;
+  max-width: 100%;
+}
+
+.name {
+  text-transform: uppercase;
+}
+
+.name__first {
+  font-size: 70px;
+  line-height: 100px;
+  font-weight: 700;
+  color: #bb7a3b;
+  letter-spacing: 0.165em;
+}
+
+.name__last {
+  font-size: 60px;
+  line-height: 70px;
+  color: #242732;
+  letter-spacing: 0.03em;
+}
+
+.about-me__post {
+  margin-bottom: 40px;
+  font-size: 25px;
+  line-height: 30px;
+  color: #4f4f4f;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.information__paragraph:first-child {
+  margin-bottom: 20px;
+}
+/* Block about myself styles end */
+
+/* Section about english styles start */
+.english__title {
+  margin-bottom: 40px;
+}
+/* Section about english styles end */
+
+/* Work experience section styles start */
+.left-block__work {
+  margin-bottom: 50px;
+}
+
+.work__title {
+  margin-bottom: 20px;
+}
+/* Work experience section styles end */
+
+/* Left block styles end */
+
+/* Right block styles start */
+.right-block {
+  flex: 0 1 43.77%;
+}
+
+/* Contact styles start */
+.right-block__contact {
+  margin-bottom: 60px;
+}
+
+.contact__title {
+  margin-bottom: 30px;
+}
+
+.info-contact__item {
+  position: relative;
+  display: block;
+  padding-left: 55px;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  transition: all 0.5s ease 0s;
+}
+
+.info-contact__item::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  width: 35px;
+  height: 35px;
+  border: 3px solid #b8b8b8;
+}
+
+.info-contact__item:hover,
+.info-contact__item:active {
+  opacity: 0.8;
+}
+
+.info-contact__phone {
+  background: url("../img/icons/phone-ico.svg") 9px center no-repeat;
+}
+
+.info-contact__mail {
+  background: url("../img/icons/mail-ico.svg") 9px center no-repeat;
+}
+
+.info-contact__discord {
+  background: url("../img/icons/discord-ico.png") 9px center no-repeat;
+}
+
+.info-contact__github {
+  background: url("../img/icons/github-ico.png") 9px center no-repeat;
+}
+
+.info-contact__location {
+  background: url("../img/icons/location-ico.svg") 9px center no-repeat;
+}
+/* Contact styles end */
+
+/* Education section styles start */
+.right-block__education {
+  margin-bottom: 30px;
+}
+
+.education__title {
+  margin-bottom: 40px;
+}
+/* Education section styles end */
+
+/* Training section styles start */
+.right-block__training {
+  margin-bottom: 30px;
+}
+
+.training__subtitle {
+  margin-bottom: 30px;
+}
+/* Training section styles end */
+
+/* Scholarly work section styles start */
+.right-block__science {
+  margin-bottom: 50px;
+}
+
+.science__subtitle {
+  margin-bottom: 30px;
+}
+/* Scholarly work section styles end */
+
+/* Hard skills section styles start */
+.right-block__skills {
+  margin-bottom: 50px;
+}
+
+.skills__title {
+  margin-bottom: 40px;
+}
+/* Hard skills section styles end */
+
+/* Code examples section styles start */
+.code__title {
+  margin-bottom: 40px;
+}
+
+.code__group {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.code__definition {
+  margin-bottom: 10px;
+}
+
+.code__example {
+  display: block;
+  padding: 20px;
+  font-style: italic;
+  background-color: rgba(187, 122, 59, 0.3);
+  border-radius: 10px;
+}
+
+.code__brown {
+  color: #bb7a3b;
+}
+/* Code examples section styles end */
+
+/* Right block styles end */
+
+/* Page styles end */
+
+/* Footer styles start */
+.footer {
+  padding: 20px 0;
+  background-color: rgba(187, 123, 59, 0.599);
+}
+
+.footer__list {
+  text-align: center;
+}
+
+.footer__item {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.footer__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.github-link {
+  transition: all 0.5s ease 0s;
+}
+
+.github-link:hover,
+.github-link:active {
+  color: #e5e5e5;
+  opacity: 0.8;
+}
+/* Footer styles end */
