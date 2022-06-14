@@ -20,7 +20,7 @@ body {
   padding: 0 15px;
 }
 
-._left-container {
+._page-part-container {
   box-sizing: content-box;
   max-width: 100%;
   margin: 0 auto;
@@ -172,16 +172,65 @@ body {
 /* Block about myself styles end */
 
 /* Work experience section styles start */
-.title__line {
+.work__title_line {
   margin-bottom: 20px;
 }
 /* Work experience section styles end */
 
 /* Left block styles end */
 
+/* Right block styles start */
 .right-block {
   flex: 0 1 43.77%;
 }
+
+/* Contact styles start */
+.right-block__contact {
+  margin-bottom: 60px;
+}
+
+.contact__title-line {
+  margin-bottom: 30px;
+}
+
+.info-contact__item {
+  display: block;
+  position: relative;
+  font-size: 18px;
+  line-height: 40px;
+  padding-left: 55px;
+  letter-spacing: 0.05em;
+}
+
+.info-contact__item::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  width: 35px;
+  height: 35px;
+  border: 3px solid #b8b8b8;
+}
+
+.info-contact__phone {
+  background: url(../img/icons/phone-ico.svg) 9px center no-repeat;
+}
+.info-contact__mail {
+  background: url(../img/icons/mail-ico.svg) 9px center no-repeat;
+}
+.info-contact__discord {
+  background: url(../img/icons/discord-ico.png) 9px center no-repeat;
+}
+.info-contact__github {
+  background: url(../img/icons/github-ico.png) 9px center no-repeat;
+}
+.info-contact__location {
+  background: url(../img/icons/location-ico.svg) 9px center no-repeat;
+}
+/* Contact styles end */
+
+/* Right block styles end */
+
 /* Page styles end */
 
 /* Footer styles start */
